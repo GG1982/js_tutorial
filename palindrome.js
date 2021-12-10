@@ -55,16 +55,3 @@ String.prototype.blank = function() {
 Array.prototype.last = function() {
   return this.slice(-1)[0];
 }
-
-
-
-s = ''
-a = '1112031584'
-
-for ( i = 1; i < a.length; i++) {
-  if (a[i] % 2 == a[i-1] % 2) {
-    s += Math.max(a[i], a[i-1])
-  }
-}
-
-console.log('www.multisoft.se/' + s);
